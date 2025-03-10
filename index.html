@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Ice Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-ice-cream"></i> Scoops & Dreams</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#flavors">Flavors</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Premium Ice Cream Experience</h1>
+            <p>Handcrafted flavors made with love</p>
+            <button class="cta-button"><i class="fas fa-ice-cream"></i> View Our Flavors</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h2><span class="highlight">Our Story</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Since 1995, we've been crafting the most delicious ice cream using only the finest ingredients. Our passion for quality and creativity keeps our customers coming back for more.</p>
+            </div>
+            <div class="about-cards">
+                <div class="card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Only natural, locally sourced ingredients</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-hands"></i>
+                    <h3>Artisanal</h3>
+                    <p>Handcrafted in small batches daily</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-star"></i>
+                    <h3>Unique</h3>
+                    <p>Creative and exciting flavor combinations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="flavors" class="services">
+        <h2><span class="highlight">Our Signature Flavors</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="flavor-icon"><i class="fas fa-ice-cream"></i></div>
+                <h3>Classic Vanilla Bean</h3>
+                <p>Madagascar vanilla beans with cream</p>
+                <span class="price">$4.99</span>
+            </div>
+            <div class="service-card">
+                <div class="flavor-icon"><i class="fas fa-ice-cream"></i></div>
+                <h3>Double Chocolate</h3>
+                <p>Rich Belgian chocolate swirls</p>
+                <span class="price">$5.49</span>
+            </div>
+            <div class="service-card">
+                <div class="flavor-icon"><i class="fas fa-ice-cream"></i></div>
+                <h3>Strawberry Fields</h3>
+                <p>Fresh strawberries and cream</p>
+                <span class="price">$5.29</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2><span class="highlight">Order Ice Cream</span></h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-message"></i>
+                <textarea placeholder="Special Order Request" required></textarea>
+            </div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Scoops & Dreams. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
